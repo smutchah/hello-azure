@@ -12,6 +12,7 @@
 	<artifactId>hello-azure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>hello-azure</name>
+	<packaging>war</packaging>
 	<description>Spring Boot Hello World On Azure</description>
 
 	<properties>
