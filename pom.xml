@@ -36,7 +36,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>helloazure</finalName>
+		<finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -54,10 +54,10 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/target/deployment/helloazure</outputDirectory>
+							<outputDirectory>${basedir}/target/deployment/ROOT</outputDirectory>
 							<resources>					 
 								<resource>
-									<directory>${basedir}/target/helloazure</directory>
+									<directory>${basedir}/target/ROOT</directory>
 									<filtering>true</filtering>
 								</resource>
 							</resources>							
